@@ -1,0 +1,317 @@
+body{
+  background-color: #ededed;
+  font-family: Roboto, sans-serif;
+}
+.App {
+    padding-bottom: 100px;
+    min-height: 100%;
+    width: 100%;
+    border-radius: 3px;
+}
+
+
+.App-header {
+    margin: 0;
+    padding: 0;
+}
+
+.div {
+;
+}
+.sidebar {
+  position: fixed;
+  width: 10%;
+  height: 100%;
+  background: rgb(31, 32, 33, 0.95);
+}
+
+.sidebar ul li {
+  color:rgba(230, 230, 230, 0.9);
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sidebar ul li a {
+  border-left: 3px solid transparent;
+  color: #B1B1B1;
+  text-decoration: none;
+  padding:15px 5px;
+  display: block;
+
+}
+
+
+.sidebar li a.active {
+  border-left: 3px solid  rgba(221, 121, 0, 0.9);
+  text-decoration: none;
+}
+
+.sidebar li a:hover:not(.active) {
+  border-left: 3px solid  rgba(221, 121, 0, 0.9);
+}
+
+.logo-udes {
+  width: 100%;
+  border-bottom: 1px solid #B1B1B1;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.logo-fing {
+  width: 100%;
+  border-top: 1px solid #B1B1B1;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: absolute;
+  bottom:0px;
+  }
+
+.div-logo-fing{
+  margin-top: 100%;
+
+}
+
+.container {
+  background: white;
+  width: 90%;
+  padding-bottom: 20px;
+  border-radius: 3px;
+  margin-left:10%;
+  background-color: #ededed;
+
+}
+
+.table{
+  border: 1px solid #e8ecf2;
+}
+
+.views{
+  margin-top: 0;
+  border: 1px solid #e8ecf2;
+  border-radius: 3px;
+  width: 80%;
+  margin-left:10%;
+  margin-right:10%;
+  background-color: white;
+
+}
+
+
+
+/*FormProblem*/
+.problem{
+  color: black;
+  border-left: 1px solid #d0d0d0;
+  border-right: 1px solid #d0d0d0;
+  border-bottom: 1px solid #d0d0d0;
+
+  margin-top: 0;
+}
+.problem-form{
+margin-top: 3%;
+margin-left: 5%;
+margin-right: 5%;
+margin-bottom: 5%;
+}
+
+.btn-success{
+}
+
+
+.problem-title{
+color: white;
+font-stretch: extra-expanded;
+border-top: 1px solid #d0d0d0;
+margin-top: 0;
+margin-bottom: 0;
+padding-top: 2%;
+padding-bottom: 2%;
+padding-left: 5%;
+padding-right: 5%;
+background-color: rgba(222, 124, 0, 0.9);
+
+}
+
+.btn-add
+{
+  color: white;
+  background-color: #31ad0c;
+  border-radius: unset;
+  margin-left:-15%;
+}
+
+.btn-delete
+{
+}
+.btn-icon-delete
+{
+  color: white;
+  background-color: #b21810;
+  border-top-left-radius: unset;
+  border-bottom-left-radius: unset;
+  padding-left: -10%;
+}
+
+/* Problem Teacher */
+
+.problem-teacher{
+}
+
+
+.table-teacher{
+  margin-top: 3%;
+}
+
+
+/*Problem Student */
+.problem-student{
+  background-color:white;
+}
+
+.problem-student-title{
+  color: white;
+  font-stretch: extra-expanded;
+  border-top: 1px solid #d0d0d0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgba(222, 124, 0, 0.9);
+}
+
+
+
+.table-student{
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;}
+
+.td-btn-view{
+  padding-left: 25px;
+}
+
+.btn-view{
+  background-image: url("../images/data-viewer.svg");
+  background-size: 26px 26px;
+  width: 26px;
+  height: 26px;
+  border: unset;
+
+}
+
+.td-btn-solve
+{
+  padding-left: 19px;
+}
+.btn-solve{
+  background-image: url("../images/programmer.svg");
+  background-size: 26px 24px;
+  width: 32px;
+  height: 32px;
+  border: unset;
+}
+
+/* Form Student */
+
+.form-student-problem-title{
+
+}
+
+.student-form{
+  border-left: 1px solid #d0d0d0;
+  border-right: 1px solid #d0d0d0;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.form-student{
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+.form-student-problem-language{
+  margin-top: 7%;
+}
+
+.form-student-title-col{
+
+}
+
+.form-student-title{
+  color: white;
+  margin:0;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgba(222, 124, 0, 0.9);
+  border-bottom: 1px solid #d0d0d0;
+  border-top: 1px solid #d0d0d0;
+
+}
+
+.form-student-row-description{
+
+  border-bottom: 1px solid #B1B1B1;
+
+}
+.form-student-row-problem{
+
+}
+
+.form-student-modal{
+    margin-top: 1%;
+}
+
+.form-student-problem-row-language{
+  margin-top: 2%;
+}
+
+.form-student-monaco{
+  width: 70%;
+  height: 80%;
+  margin-left:15%;
+  margin-right:10%;
+
+}
+
+.form-student-solve{
+  margin-top: 1%;
+}
+
+/*HOME */
+
+.pieChart{
+  width: 402px;
+  height: 402px;
+}
+
+.col-pieChart{
+  padding-left: 50px;
+}
+
+/* Component-Card */
+
+.card{
+  border: 1px solid #e8ecf2;
+  border-radius: 5px;
+}
+.card-header{
+  margin-left: 5%;
+  margin-right: 5%;
+  border-bottom: 1px solid #e8ecf2;
+}
+
+.pieChart{
+  margin-left: 10%;
+}
+
+/* Navbar */
+.Navbar{
+  background: rgb(31, 32, 33, 0.95);
+  color: #B1B1B1;
+}

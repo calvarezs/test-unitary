@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: mingeso.UnitTests.UserProblemTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.483 sec - in mingeso.UnitTests.UserProblemTest

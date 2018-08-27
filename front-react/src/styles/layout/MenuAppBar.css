@@ -1,0 +1,18 @@
+.root {
+    flex-grow: 1;
+}
+
+.flex {
+    flex: 1px;
+}
+
+.menuButton {
+    /* margin-top: -10px;
+    margin-right: 20px; */
+}
+
+.list {
+    text-align: left;
+    border: 1px solid #efefef;
+    width: 300px;
+}
